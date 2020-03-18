@@ -15,8 +15,7 @@ const morgan = require('morgan');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-//MONGODB_USER=shreyas MONGODB_PASSWORD=NRXAmiWlaDuuXqtq MONGODB_DEFAULT_DATABASE=shop
-//MONGODB_USER = 'shreyas',MONGODB_PASSWORD = 'NRXAmiWlaDuuXqtq',MONGODB_DEFAULT_DATABASE = 'shop';
+
 const MONGODB_URI = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@cluster0-pydiw.mongodb.net/${process.env.MONGODB_DEFAULT_DATABASE}?retryWrites=true&w=majority`
 const app = express();
 
