@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "MONGODB_USER=shreyas MONGODB_PASSWORD=NRXAmiWlaDuuXqtq MONGODB_DEFAULT_DATABASE=shop NODE_ENV=production node app.js",
+    "start": "node app.js",
     "start-server": "node app.js",
     "dev": "nodemon app.js"
   },
