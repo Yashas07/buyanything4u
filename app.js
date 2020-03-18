@@ -70,7 +70,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images',express.static(path.join(__dirname,'images')));
 app.use('/products/images',express.static(path.join(__dirname,'images')));
 app.use(session({ secret : 'my secret',resave: false ,saveUninitialized : false , store : store,cookie : {
-  expires : Date.now() + 30000
+  expires : Date.now() + 10
 }}));
 
 app.use(csrfProtection);
@@ -130,7 +130,7 @@ mongoose
     MONGODB_URI
   )
   .then(result => {
-    app.listen(process.env.PORT);
+    app.listen(process.env.PORT | 3000);
   })
   .catch(err => {
     console.log(err);

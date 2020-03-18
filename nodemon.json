@@ -5,4 +5,4 @@
         "MONGODB_DEFAULT_DATABASE" : "shop",
         "NODE_ENV" : "production"
     }
-}
+} 
