@@ -1,8 +1,0 @@
-{
-    "env" : {
-        "MONGODB_USER" : "shreyas",
-        "MONGODB_PASSWORD" : "NRXAmiWlaDuuXqtq",
-        "MONGODB_DEFAULT_DATABASE" : "shop",
-        "NODE_ENV" : "production"
-    }
-} 
